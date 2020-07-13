@@ -1,0 +1,146 @@
+*{
+margin:0;
+padding:0;
+
+}
+body{
+  background-image:url(bg-home.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+fieldset{
+  width:300px;
+  height:480px;
+  margin-top: 30px !important;
+  margin:auto;
+  border:3px solid black;
+  border-radius:15px;
+  
+}
+
+fieldset legend h1{
+  
+  margin-left: 25px;
+}
+.inpu{
+  width:250px;
+  height:200px;
+  box-sizing:border-box;
+  margin-top:30px;
+  margin-left:25px;
+  
+  
+}
+.inpu input{
+  width:100%;
+  margin-bottom:10px;
+  padding:10px;
+  height:40px;
+  box-sizing:border-box;
+  background-color:transparent;
+  border-radius:6px;
+  border:.5px solid white;
+  text-align:center;
+  font-size:15px;
+}
+.inpu input:hover{
+  border:none;
+  background-color:black;
+  color:white;
+}
+.inpu1{
+  width:250px;
+  height:60px;
+  border:1px solid white;
+  border-radius:10px;
+  margin-left:25px;
+}
+.inpu1 h4{
+  font-family:century;
+  font-size:16px;
+  text-align:center;
+  margin-bottom:13px;
+  border-bottom:2px solid silver;
+  
+}
+.inpu1 input{
+  margin-left:5px;
+  font-family:century;
+  font-size:15px;
+}
+.sec{
+  margin-top:10px;
+  width:250px;
+  height:70px;
+  border:1px solid white;
+  border-radius:10px;
+  margin-left:25px;
+  position:relative;
+}
+.sec h4{
+  font-family:century;
+  font-size:16px;
+  text-align:center;
+  margin-bottom:5px;
+  border-bottom:2px solid silver;
+  
+}
+.opt{
+  width:100px
+  height:20px;
+  position:absolute;
+  bottom:17px;
+  left:50px;
+  display:inline-block;
+  
+}
+.uplo{
+  width:250px;
+  height:60px;
+  border:1px solid white;
+  border-radius:10px;
+  margin-left:25px;
+}
+.uplo h5{
+  font-family:century;
+  font-size:16px;
+  text-align:center;
+  margin-bottom:13px;
+  border-bottom:2px solid silver;
+  
+}
+input[type="file"] {
+    margin-left:15px;
+}
+
+input[type="radio"] {
+    margin-left: 15px;
+}
+.send{
+	width:300px;
+	height:40px;
+	margin:auto;
+}
+.button {
+    margin: 10px;
+    width: 75px;
+    height: 23px;
+    margin-left: 43px;
+    border-radius: 5px;
+}
+.button:nth-child(1){
+	background-color:red;
+}
+.button:nth-child(2){
+	background-color:green;
+}
+
+
+
+

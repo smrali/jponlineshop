@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c8d6e5;
+    font-family: sans-serif;
+}
+
+.top-nav-bar {
+    height: 57px;
+    top: 0;
+    position: sticky;
+    background: #540505;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index: 2;
+}
+
+.logo {
+    height: 40px;
+    margin: 5px 10px;
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid orange !importent;
+    border-top-left-radius: 20px !importent;
+    border-bottom-left-radius: 20px !importent;
+    border-top-right-radius: 0 !importent;
+    border-bottom-right-radius: 0 !importent;
+    box-shadow: none !importent;
+}
+
+span.input-group-text {
+    background: orange;
+    border: 1px solid orange;
+    margin: 8.7px 10px 3px 0;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.search-box {
+    display: inline-flex;
+    width: 60%;
+}
+
+.fa-search {
+    color: #fff;
+}
+
+.menu-bar {
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li {
+    border-left: 1px solid #fff;
+    list-style: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.menu-bar ul li a {
+    font-size:16px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.fa-shopping-cart{
+    margin-right:5px;
+}
+.fa-user{
+    margin-right:5px;
+}
+.fa-user-o{
+    margin-right:5px;
+}
+
+
+
+/****************side menu design************/
+
+.side-menu{
+    height: 625px;
+    width: 14%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background: #3c0404;
+}
+h5{
+	text-align:center;
+	margin-bottom:20px;
+}
+.side-menu ul{
+    margin-left: 10px;
+}
+.side-menu ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-top:10px;
+    cursor: pointer;
+}
+.side-menu ul li:hover{
+    color:orange;
+}
+.side-menu ul li ul{
+    display: none;
+    z-index:10;
+    top:77px;
+}
+.side-menu ul li:hover ul{
+    display: block;
+    height: 400px;
+    margin-left: 13%;
+    padding:0 100px 10px 10px;
+    position: fixed;
+    background: #2d3343;
+    box-shadow:1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+.fa-angle-right{
+    float: right;
+    margin-top:4px;
+    margin-left:8px;
+}
+#menu-btn,#close-btn{
+    color: orange;
+    font-size: 30px;
+    margin: 10px;
+    display: none;
+
+}
+
+
+/*************slider design**************/
+
+
+.slider{
+    width:85%;
+    margin-left: 15%;
+    padding: 0 10px;
+}
+.carousel-inner {
+  height:100%;
+}
+
+
+/*-----------featured categories section-----------*/
+
+.featured-categories{
+    margin: 50px 0;
+}
+.featured-categories img{
+    width: 100%;
+    padding: 20px 0;
+    transition: 1s ease;
+    cursor: pointer
+}
+.featured-categories img:hover{
+    transform: scale(1.1);
+	
+}
+.title-box{
+    background: orange;
+    color: aliceblue;
+    width: 180px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.title-box h2{
+    font-size: 24px;
+}
+.title-box::after{
+    content: '' ;
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+}
+
+
+/*-------product top-------*/
+
+.product-top img{
+    width: 100%;
+}
+
+.overlay-right{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 1%;
+    margin-left: 0;
+    width: 70px;
+}
+.overlay-right .fa{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+.overlay-right .btn-secondary{
+    background: none !importent;
+    border: none !importent;
+    box-shadow: none !importent;
+}
+.product-top:hover .overlay-right{
+    opacity: 1;
+    margin-left: 5%;
+    transition: .5s
+}
+
+
+/*----------product bottom-----------*/
+
+
+.product-bottom .fa{
+    color: orange;
+    font-size: 15px;
+}
+.product-bottom h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.new-products{
+  margin: 50px 0;
+}
+
+
+/***************website-features*************/
+
+
+.website-features{
+  margin: 60px 0;
+}
+.website-features img{
+  width:20%;
+}
+
+.feature-text{
+    margin-top: 10px;
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+.feature-box{
+    padding-top: 20px;
+}
+
+
+
+/*********************footer section*******************/
+
+
+.footer{
+    margin-top: 50px;
+    background: #000;
+    color: aliceblue
+}
+.footer h1{
+    font-size: 15px;
+    margin: 25px 0;
+}
+.footer p{
+    font-size: 12px;
+}
+p.copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.footer-image img{
+    width: 150px;
+}
+.footer .row .fa{
+    padding-right: 10px;
+}
+
+
+/***********single product page design start***************/
+
+
+.single-product{
+    margin-top: 70px;
+}
+.new-arrival{
+    background: orange;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 50px;
+}
+.single-product .fa{
+    color: orange;
+}
+.single-product .price{
+    color: orange;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.single-product input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+    border-color: black;
+}
+
+.single-product .btn-primary{
+    background: orange;
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+    margin-left: 20px;
+    box-shadow: none;
+}
+
+
+/********************product-description**************/
+
+
+.product-description .nav-tabs{
+    background:#D6D6D6;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: normal;
+    
+}
+.nav-tabs ul li{
+    list-style: none;
+}
+.nav-tabs ul li a{
+    color: #333;
+    font-size: 20px;
+    padding: 5px 5px;
+    border: none;
+    display: block;
+}
+.nav-tabs .nav-link{
+    border: none !important;
+}
+.product-description p{
+    margin-top: 30px;
+}

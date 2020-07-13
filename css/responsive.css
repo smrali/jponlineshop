@@ -1,0 +1,58 @@
+@media only screen and (max-width: 980px) {
+
+    .search-box {
+        width: 100%;
+    }
+
+    .menu-bar {
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+    }
+
+    .menu-bar ul li {
+        height: 57px;
+        width: 100%;
+    }
+    .side-menu {
+        width:34%;
+        height:520px;
+        z-index:20;
+        top: 133px;
+        position: fixed;
+        font-size: 12px;
+        display: none;
+}
+    .side-menu ul li ul{
+        top: 133px;
+        
+    }
+    .side-menu ul li:hover ul{
+        margin-left: 31%;
+    }
+    #menu-btn{
+        display: block;
+    }
+    
+    /*sider responsive design start from here*/
+    
+    .slider{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .slider{
+         width: 100%;
+         margin-left: 0;
+    }
+        
+    }
